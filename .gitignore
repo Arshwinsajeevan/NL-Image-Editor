@@ -1,0 +1,55 @@
+# General / OS Files
+.DS_Store
+Thumbs.db
+
+# Node / Package Manager
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Build Outputs
+dist/
+build/
+out/
+.cache/
+.tmp/
+
+# Editor / IDE Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+logs/
+*.log
+*.log.*
+backend/logs/
+
+# Vite Specific
+.vite/
+frontend/.vite/
+frontend/dist/
+
+# Backend Specific
+backend/node_modules/
+backend/uploads/
+backend/temp/
+
+# Frontend Specific
+frontend/node_modules/
+frontend/.cache/

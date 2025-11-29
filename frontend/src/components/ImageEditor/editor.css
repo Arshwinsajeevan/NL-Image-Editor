@@ -1,0 +1,78 @@
+/* src/components/ImageEditor/editor.css (update for buttons and spacing) */
+.editor-root {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.controls-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(10, 20, 30, 0.04);
+  border: 1px solid rgba(12, 18, 24, 0.03);
+}
+.controls-grid {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.form-row input[type="text"],
+.form-row select,
+.form-row input[type="file"] {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #eef4fb;
+  background: #fff;
+}
+.form-row input[type="range"] {
+  width: 100%;
+}
+.actions-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.preview-row-below {
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+.preview-item {
+  flex: 1 1 300px;
+  text-align: center;
+}
+.preview-canvas {
+  width: 100%;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #eef4fb;
+  box-shadow: 0 6px 18px rgba(10, 20, 30, 0.04);
+  padding: 4px;
+}
+
+/* small */
+.small {
+  color: #576971;
+  font-size: 13px;
+}
+
+/* responsive */
+@media (max-width: 880px) {
+  .preview-row-below {
+    flex-direction: column;
+  }
+  .form-row {
+    width: 100%;
+  }
+}

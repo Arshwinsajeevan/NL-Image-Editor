@@ -1,0 +1,10 @@
+/* src/components/BackgroundPicker/backgroundpicker.css */
+.bg-picker { margin-top:8px; }
+.collapse-btn {
+  background:#fff; border:1px solid #e6eef8; padding:8px 10px; border-radius:8px; cursor:pointer; font-weight:600;
+}
+.bg-grid { margin-top:10px; display:grid; grid-template-columns: repeat(auto-fit, minmax(96px,1fr)); gap:8px; align-items:center; }
+.bg-thumb { cursor:pointer; border-radius:8px; overflow:hidden; border:1px solid #eef4fb; }
+.bg-thumb img { width:100%; height:72px; object-fit:cover; display:block; transition: transform .12s ease; }
+.bg-thumb:hover img { transform: scale(1.04); }
+.bg-actions { margin-top:6px; color:#6b7280; }
